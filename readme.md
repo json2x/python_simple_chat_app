@@ -1,6 +1,6 @@
 # Terminal AI Chat Application
 
-A command-line chat application that allows you to interact with OpenAI's GPT models, including support for image analysis using GPT-4 Vision.
+A command-line chat application that allows you to interact with OpenAI's GPT models, including support for image analysis.
 
 ## Features
 
@@ -45,8 +45,6 @@ python chat_with_media.py
 ```
 What's in this image? {{https://example.com/image.jpg}}
 ```
-
-Note: The application automatically switches to GPT-4 Vision when images are detected in the prompt.
 
 ## Example Usage
 
