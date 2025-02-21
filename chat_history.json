@@ -65,5 +65,24 @@
   {
     "role": "assistant",
     "content": "You're welcome! If you have any more questions or need further assistance, feel free to ask!"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "describe"
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "The image showcases a peaceful nighttime view of a lake. A wooden dock stretches out into the still water, which reflects the bright full moon above. Surrounding the lake are dark, shadowy mountains and dense trees, creating a serene and tranquil atmosphere. The clear sky is dotted with stars, enhancing the beauty of the night scene. Lush green plants frame the dock, adding a touch of nature to the setting."
   }
 ]
