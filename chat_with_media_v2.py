@@ -149,12 +149,9 @@ class ChatApp:
         
         try:
             # Get response from OpenAI
-            # Use GPT-4 Vision if images are present, otherwise use GPT-3.5
             has_images = len(image_urls) > 0 or len(image_paths) > 0
             model = "gpt-4o-mini"
-            
-            # Set max tokens based on model
-            max_tokens = 4096 if has_images else 150
+            max_tokens = 4096
             
             response = self.client.chat.completions.create(
                 model=model,

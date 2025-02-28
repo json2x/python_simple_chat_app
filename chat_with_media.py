@@ -97,9 +97,7 @@ class ChatApp:
         try:
             # Get response from OpenAI
             model = "gpt-4o-mini"
-            
-            # Set max tokens based on model
-            max_tokens = 4096 if image_urls else 512
+            max_tokens = 4096
             
             response = self.client.chat.completions.create(
                 model=model,
